@@ -1,0 +1,19 @@
+import math
+
+#Part 1: Creating For Loop
+lst=["roads","cities","counties","states"]
+lst2=".txt"
+lst3=[]
+for item in lst:
+lst3.append(item+lst2)
+print(lst3)
+
+#Part 2: Write a while loop that raises the mathematical constant pi (3.14159...)
+to its powers until the
+#result is greater than 10,000 (i.e. pi 0 , pi1 , pi2 ,...).
+count=3.14159
+power=0
+while count<10000:
+count=3.14159**power
+power=power+1
+print(count)
